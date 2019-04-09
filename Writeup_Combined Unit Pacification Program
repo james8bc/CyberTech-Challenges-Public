@@ -1,0 +1,21 @@
+So the zip file is encrypted. The goal is to brute force this zip file with john.
+In this challenge, you are supplied with a DOX. From this, you can build a password list
+
+CUPP Password list. Run the following commands. 
+git clone https://github.com/Mebus/cupp.git
+cd cupp
+python3 cupp.py -i
+
+Fill in the questions. For blank entries, just press enter. Make sure to accept all of the
+extra options (add numbers and random symbols). Inside the cupp folder, there should be a
+file called "jarold.txt". This is your word list.
+
+ZIP file password hash. Now we need to get the hash of the zip file to brute force. The
+following are commands.
+zip2john file.zip > hash.txt
+
+Finally, it is time to brute force the zip file. Run the following command.
+john --format=zip --wordlist=mydictionary.txt myhash.txt
+
+You will find that the password is "Paul2010". Enter the password into the zip file and
+get the flag. The flag is: cUpP_1s_C00l
