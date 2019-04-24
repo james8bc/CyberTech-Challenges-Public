@@ -1,5 +1,5 @@
 # Round 1, Challenge 2, Got'em
-Hey nerds, time for another writeup. This time it's going to be on challenge 2, "Got'em". We are linked to an audio file. If you listen to the audio file you will notice that there are two different channels. You can save the file by right clicking and selecting "Save audio as" 
+Hey nerds, time for another writeup. This time it's going to be on challenge 2, "Got'em". We are linked to an audio file. If you listen to the audio file you will notice that there are two different channels. You can save the file by right-clicking and selecting "Save audio as" 
 
 ![gotem_2](https://user-images.githubusercontent.com/14042786/56686668-1d0e8b80-669a-11e9-957d-63dfda003a4b.png)
 
